@@ -17,8 +17,9 @@ for i in range(n):
     yy.append(f(x))
 
 c=yy[0]+yy[n-1]
+s=0
 for i in range(1,n-1):
-    c+=2*yy[i]
+    s+=2*yy[i]
 
-s=(h/2)*c
-print("Integral: ",s)
+s1=(h/2)*(c+s)
+print("Integral: ",s1)
