@@ -1,6 +1,6 @@
 import numpy as np
 
-n=5  # Order of Matrix
+n=2  # Order of Matrix
 
 a=np.zeros((n,n),dtype=float) # Original Matrix
 a0=np.zeros((n,n),dtype=float) # Copy of Original Matrix
